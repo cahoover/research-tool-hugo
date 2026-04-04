@@ -1,0 +1,64 @@
+baseurl = "/"
+title = 'Research Tool'
+
+[module]
+  [[module.imports]]
+    path = "github.com/mirus-ua/hugo-theme-re-terminal/v2"
+
+pagination.pagerSize = 10
+
+[params]
+  # dir name of your main content (default is `content/posts`).
+  # the list of set content will show up on your index page (baseurl).
+  contentTypeName = "posts"
+
+  # ["orange", "blue", "red", "green", "pink", "paper"]
+  themeColor = "paper"
+
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 6
+
+  # set theme to full screen width
+  fullWidthTheme = false
+
+  # center theme with default width
+  centerTheme = true
+
+[params.Logo]
+  logoText = "Research Tool"
+
+[params.author]
+  name = "Christopher Hoover"
+  email = "cahoover@gmail.com"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+    [[menu.main]]
+    identifier = "features"
+    name = "Features"
+    url = "/features/"
+    weight = 2
+    [[menu.main]]
+    identifier = "use cases"
+    name = "Use Cases"
+    url = "/use-cases/"
+    weight = 3
+    [[menu.main]]
+    identifier = "architecture"
+    name = "Architecture"
+    url = "/architecture/"
+    weight = 4
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 5
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 6
