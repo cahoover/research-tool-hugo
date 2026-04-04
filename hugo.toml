@@ -24,6 +24,9 @@ pagination.pagerSize = 10
   # center theme with default width
   centerTheme = true
 
+  # custom favicon (disables theme default)
+  favicon = "/favicon_io/favicon.ico"
+
 [params.Logo]
   logoText = "Research Tool"
 
