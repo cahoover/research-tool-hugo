@@ -109,11 +109,11 @@ RT’s ingestion layer turns raw sources into durable, versioned artifacts acros
 &lt;p&gt;&lt;strong&gt;Multimodal Ingestion&lt;/strong&gt;&lt;br&gt;
 RT’s ingestion layer turns raw sources into durable, versioned artifacts across documents, datasets, HTML, XML, and media. It is the front door to the platform and the beginning of the evidence chain, designed to preserve provenance from the first step of processing.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Structured Data Engine&lt;/strong&gt;&lt;br&gt;
-RT does not store simple tables. It transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states, relationships, and dynamics. Our testing routinely processes 200M rows.&lt;/p&gt;
+RT transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states, relationships, and dynamics. Our testing routinely processes 200M rows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Document &amp;amp; Media Parsing&lt;/strong&gt;&lt;br&gt;
 RT preserves structure, hierarchy, and evidence fidelity across PDFs, HTML, XML, and media transcripts. Rather than flattening everything into undifferentiated chunks, it retains the internal form of source material so downstream systems can reason over real structure.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Annotation Substrate&lt;/strong&gt;&lt;br&gt;
-RT’s annotation substrate is a foundational architecture for stand-off semantics. It combines a structure substrate, canonical annotation bundles, and deterministic resolution, allowing machine and human annotations to remain grounded in stable document coordinates.&lt;/p&gt;
+RT’s annotation substrate is a foundational architecture for stand-off semantics. It combines a structure substrate, canonical annotation bundles, and deterministic resolution, allowing machine and human annotations to remain grounded in stable document coordinates. We wrote a bit about it &lt;a href=&#34;//localhost:1313/posts/the-annotation-substrate/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Durable Artifact Plane&lt;/strong&gt;&lt;br&gt;
 This is RT’s source-of-truth layer: deterministic identities, reproducible artifacts, manifest-based publishing, and stable contracts for downstream systems. It is the foundation that makes replay, auditability, and controlled evolution possible.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Enrichment &amp;amp; Knowledge Derivation&lt;/strong&gt;&lt;br&gt;

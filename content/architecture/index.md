@@ -8,13 +8,13 @@ Research Tool is a multi-layered platform that turns complex, evolving sources i
 RT’s ingestion layer turns raw sources into durable, versioned artifacts across documents, datasets, HTML, XML, and media. It is the front door to the platform and the beginning of the evidence chain, designed to preserve provenance from the first step of processing.
 
 **Structured Data Engine**  
-RT does not store simple tables. It transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states, relationships, and dynamics. Our testing routinely processes 200M rows. 
+RT transforms structured data into governed analytical surfaces that can be normalized across sources, compared over time, and projected into reusable states, relationships, and dynamics. Our testing routinely processes 200M rows. 
 
 **Document & Media Parsing**  
 RT preserves structure, hierarchy, and evidence fidelity across PDFs, HTML, XML, and media transcripts. Rather than flattening everything into undifferentiated chunks, it retains the internal form of source material so downstream systems can reason over real structure.
 
 **Annotation Substrate**  
-RT’s annotation substrate is a foundational architecture for stand-off semantics. It combines a structure substrate, canonical annotation bundles, and deterministic resolution, allowing machine and human annotations to remain grounded in stable document coordinates.
+RT’s annotation substrate is a foundational architecture for stand-off semantics. It combines a structure substrate, canonical annotation bundles, and deterministic resolution, allowing machine and human annotations to remain grounded in stable document coordinates. We wrote a bit about it [here](/posts/the-annotation-substrate/).
 
 **Durable Artifact Plane**  
 This is RT’s source-of-truth layer: deterministic identities, reproducible artifacts, manifest-based publishing, and stable contracts for downstream systems. It is the foundation that makes replay, auditability, and controlled evolution possible.
